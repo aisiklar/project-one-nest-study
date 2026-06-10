@@ -21,6 +21,7 @@ export class ProfilesController {
 
   @Post()
   create(@Body() createProfileDto: CreateProfileDto) {
+    console.log('post to profiles, createProfileDto: ', createProfileDto);
     return {
       name: createProfileDto.name,
       description: createProfileDto.description,

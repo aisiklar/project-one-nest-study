@@ -4,7 +4,6 @@ import { AppService } from './app.service';
 import { ProfilesModule } from './profiles/profiles.module';
 import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { UserModule } from './user/user.module';
-import { UserModule } from './user/user.module';
 
 const typeORMConfig: TypeOrmModuleOptions = {
   type: 'postgres',
